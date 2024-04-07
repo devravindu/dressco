@@ -893,3 +893,136 @@ button{
 }
 
 }
+
+@media (max-width: 477px) {
+  .section-p1 {
+    padding: 20px 20px;
+}
+
+  #header {
+    padding: 10px 20px;
+}
+
+#hero {
+  padding: 100px 20px;
+  background-position: 60%;
+}
+
+.primary-btn {
+  padding: 15px;
+  font-size: 14px;
+}
+
+.row {
+  flex-wrap: wrap;
+}
+
+.row .category-card {
+  width: 100%;
+  height: 25vh;
+  padding: 20px 30px;
+  background-position: top 10% right 10%;
+}
+
+.row:last-child .category-card {
+  width: 100%;
+  height: 20vh;
+}
+
+#popular .row h4, #about .right-cont h4, #footer .top-container h4 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #222;
+}
+
+#popular .row .shop-more {
+  font-size: 12px;
+}
+
+#popular .row .card {
+  width: 100%;
+  height: auto;
+  padding: 0px;
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 0px;
+  row-gap: 40px;
+}
+
+#about .left-cont,
+#about .right-cont {
+  width: 100%;
+  height: auto;
+}
+#about .left-cont img {
+  width: 100%;
+}
+
+#banner {
+  width: 100%;
+  height: 50vh;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+#banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top 0 right 35%;
+}
+
+#banner .text-cont {
+  width: 80%;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-left: 20px;
+}
+
+#banner .text-cont p {
+  width: 80%;
+  font-size: 15px;
+  color: #333333;
+  line-height: 25px;
+}
+
+#instaPostSlider .heading-row .profile img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  border: 1px solid #222;
+  border-radius: 25px;
+}
+
+#instaPostSlider .slider-row {
+  padding: 0 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+#instaPostSlider .slider-row .slider-card,
+#instaPostSlider .slider-row .slider-card-bottom {
+  width: 300px;
+  height: 300px;
+}
+
+#footer .top-container {
+  align-items: flex-start;
+}
+
+#footer .top-container input {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+#footer .top-container .btn-subscribe {
+  padding: 15px 20px;
+}
+}

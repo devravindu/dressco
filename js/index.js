@@ -33,3 +33,4 @@ let widthKokis = Math.floor(Math.random() * 50);
   div.style.animationDuration = 1 + timeKokis + 's';
   container.appendChild(div);
 }
+

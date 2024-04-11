@@ -319,8 +319,8 @@ button{
     height: 70vh;
 }
 
-/* Popular Styles & Latest Styles*/
-#popular .row {
+/* product Styles & Latest Styles*/
+#product .row {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -330,7 +330,7 @@ button{
   height: 100%;
 }
 
-#popular .row h4,
+#product .row h4,
 #about .right-cont h4,
 #footer .top-container h4{
   font-size: 28px;
@@ -338,7 +338,7 @@ button{
   color: #222;
 }
 
-#popular .row .shop-more{
+#product .row .shop-more{
   padding: 5px 10px;
   background-color: transparent;
   color: #222;
@@ -349,10 +349,10 @@ button{
   cursor: pointer;
 }
 
-#popular .row .shop-more i{
+#product .row .shop-more i{
   padding-left: 4px;
 }
-#popular .row .shop-more::after{
+#product .row .shop-more::after{
   content: '';
   width: 82%;
   height: 2px;
@@ -360,7 +360,7 @@ button{
   background-color: #222;
 }
 
-#popular .row .card {
+#product .row .card {
   background-color: #ffffff;
   width: 25%;
   height: auto;
@@ -372,56 +372,56 @@ button{
   padding: 0px;
 }
 
-#popular .row .card img {
+#product .row .card img {
   width: 100%;
   object-fit: cover;
   object-position: center;
 }
 
-#popular .row .card .text-content{
+#product .row .card .text-content{
   width: 100%;
   margin-top: 15px;
   display: flex;
   flex-direction: column;
   
 }
-#popular .row .card .text-content .top-row{
+#product .row .card .text-content .top-row{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-#popular .row .card .text-content .top-row h6{
+#product .row .card .text-content .top-row h6{
   font-size: 14px;
   font-weight: 600;
   line-height: 21px;
   text-transform: uppercase;
 }
 
-#popular .row .card .text-content .top-row i{
+#product .row .card .text-content .top-row i{
   color: gold;
   font-size: 14px;
 }
 
-#popular .row .card .text-content p{
+#product .row .card .text-content p{
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
   margin-bottom: 20px;
 }
 
-#popular .row:first-child{
+#product .row:first-child{
   border-bottom: 2px solid #222;
 }
 
-#popular .row .card .text-content .bottom-row{
+#product .row .card .text-content .bottom-row{
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
   margin-top: 10px;
 }
 
-#popular .row .card .text-content .bottom-row .add-to-cart{
+#product .row .card .text-content .bottom-row .add-to-cart{
   padding: 10px 12px;
   background-color: #ad7c33;
   color: #fff;
@@ -431,7 +431,7 @@ button{
   border: 1px solid #ad7c33;
   
 }
-#popular .row .card .text-content .bottom-row .add-to-cart:hover{
+#product .row .card .text-content .bottom-row .add-to-cart:hover{
   background-color: transparent;
   border: 1px soid #ad7c33;
   color: #222;
@@ -874,6 +874,84 @@ button{
   font-size: 15px;
 }
 
+
+/* Single Product Styles */
+
+#proDetails {
+  display: flex;
+  margin-top: 60px;
+}
+
+#proDetails .image-carrousel{
+  width: 40%;
+  margin-right: 50px;
+  /* display: flex;
+  flex-direction: column;
+  gap: 8px; */
+}
+
+#proDetails .image-carrousel img{
+  height: 550px;
+  object-fit: cover;
+  object-position: top;
+}
+
+#proDetails .image-carrousel .product-image-gallery{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gallery-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+#proDetails .image-carrousel .product-image-gallery .gallery-img-col img{
+  height: 160px;
+  object-fit: cover;
+  object-position: top;
+}
+
+#proDetails .single-product-details{
+  width: 50%;
+  padding: 30px;
+}
+
+#proDetails .single-product-details h4 {
+  padding: 40px 0 20px ;
+}
+#proDetails .single-product-details h2 {
+  font-size: 26px;
+}
+#proDetails .single-product-details select {
+  padding: 5px 10px;
+  display: block;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+#proDetails .single-product-details input {
+  width: 50px;
+  height: 50px;
+  font-size: 16px;
+  padding-left: 10px;
+  margin-right: 10px;
+  outline: none;
+}
+
+#proDetails .single-product-details p{
+  line-height: 28px;
+}
+
+
+
+
+
+
+
+
+
 /* Responsive Media Queries Styles */
 
 .section-p1 {
@@ -951,13 +1029,13 @@ button{
   height: 30vh;
 }
 
-#popular .row {
+#product .row {
   padding: 0;
   gap: 0;
   flex-wrap: wrap;
 }
 
-#popular .row .card {
+#product .row .card {
   width: 45%;
   height: auto;
   padding: 0 10px;
@@ -1024,17 +1102,17 @@ button{
   height: 20vh;
 }
 
-#popular .row h4, #about .right-cont h4, #footer .top-container h4 {
+#product .row h4, #about .right-cont h4, #footer .top-container h4 {
   font-size: 22px;
   font-weight: 400;
   color: #222;
 }
 
-#popular .row .shop-more {
+#product .row .shop-more {
   font-size: 12px;
 }
 
-#popular .row .card {
+#product .row .card {
   width: 100%;
   height: auto;
   padding: 0px;

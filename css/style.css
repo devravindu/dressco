@@ -903,6 +903,72 @@ button{
 }
 
 
+/*About Us Section Styes*/
+
+#about-us{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+  column-gap: 30px;
+}
+
+#about-us img{
+  width: 50%;
+  height: auto;
+}
+
+#about-us .text-content{
+  width: 50%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#app-download {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+#app-download .heading-text {
+  text-align: center;
+}
+#app-download .app-preview {
+  margin-top: 45px;
+}
+
+#app-download .app-buttons {
+  margin-top: 45px;
+}
+
+#app-download .app-buttons a {
+  padding: 15px 30px;
+  background-color: #f84257;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid #f84257;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: 0.35s ease;
+}
+
+#app-download .app-buttons .btn-google{
+  background-color: transparent;
+  color: #222;
+}
+#app-download .app-buttons .btn-apple:hover{
+  background-color: transparent;
+  color: #222;
+}
+#app-download .app-buttons .btn-google:hover{
+  background-color: #f84257;
+  color: #ffffff;
+}
 
 
 
